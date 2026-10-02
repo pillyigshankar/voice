@@ -15,7 +15,7 @@ import Model from './pages/Model'
 import Settings from './pages/Settings'
 import { navigationRoutes } from './routes'
 
-function AppShell({ children, demoMode, onToggleDemo, onToast, onOpenModal }) {
+function AppShell({ children, demoMode, onToggleDemo }) {
   const [collapsed, setCollapsed] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const location = useLocation()
