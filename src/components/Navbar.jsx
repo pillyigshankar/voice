@@ -22,10 +22,7 @@ export default function Navbar({ onMenu, demoMode, onToggleDemo }) {
             <span />
           </button>
         </div>
-        <div className="profile-box">
-          <p>Research Prototype</p>
-          <small>G. Shankar · B.Tech CSE</small>
-        </div>
+        
       </div>
     </header>
   )
